@@ -1,4 +1,4 @@
-# app
+# Vue2 Rent a car application
 
 ## Project setup
 ```
