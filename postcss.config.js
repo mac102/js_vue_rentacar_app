@@ -23,6 +23,7 @@ module.exports = {
     plugins: [
         tailwindcss('./tailwind.config.js'),
         autoprefixer(),
-        ...process.env.NODE_ENV === 'production' ? [purgecss] : []
+        //...process.env.NODE_ENV === 'production' ? [purgecss] : [] 
+        ...process.env.NODE_ENV === 'production' ? [] : [] //purge removes assets for vue-datetime picker..
     ]
 }

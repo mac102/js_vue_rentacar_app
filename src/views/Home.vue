@@ -1,9 +1,12 @@
 <template>
   <div class="home">
-     <div class="HeroBlock bg-gray-500 h-screen">
-         <div class="container mx-auto flex justify-center items-center h-screen">
+     <div class="HeroBlock bg-gray-500">
+         <div class="container mx-auto flex justify-center items-center h-64">
              <reservation-form/>
          </div>
+     </div>
+     <div class="container mx-auto">
+         <vehicle-list filtered />
      </div>
   </div>
 </template>

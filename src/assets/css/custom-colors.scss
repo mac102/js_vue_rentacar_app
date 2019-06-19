@@ -11,6 +11,15 @@ $red: #ef5753;
 $orange: #de751f;
 $yellow: #f2d024;
 $pink: #eb5286;
+$green: #09ad03;
 .text-pink {
     color: $pink
+}
+
+.bg-green {
+    background-color: $green;
+}
+
+.bg-red {
+    background-color: $red;
 }
